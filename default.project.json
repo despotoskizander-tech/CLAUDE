@@ -1,0 +1,12 @@
+{
+  "name": "DataStoreDemo",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src/server"
+      }
+    }
+  }
+}
