@@ -36,3 +36,11 @@ Roblox game synced into Studio with [Rojo](https://rojo.space). Code is Luau.
   stores positive whole numbers.
 - `MemoryStoreService` is for short-lived shared data such as matchmaking
   queues, not for saving player progress.
+
+## Game design: retention
+
+Read `docs/retention.md` before designing or changing onboarding,
+progression, rewards, events or social features. In short: D1 depends on the
+core loop, a first-time experience under 5 minutes and performance; D7 on
+progression; D30 on regular updates and social systems. Log FTUE and
+progression steps so drop-offs show up in Analytics.
